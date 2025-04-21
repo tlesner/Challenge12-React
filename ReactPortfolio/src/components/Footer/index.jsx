@@ -1,20 +1,30 @@
 import './Footer.css'
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
-export default function Footer () {
-    const buttons = ['LinkedIn', 'GitHub']
-        return(
-            <div>
-                <div className='footer-container'>
-                    <div className='footer-list'>
-                        {buttons.map((button, index) => (
-                                <div key={index} className="footer-item">{button}</div>
-                            )
-                        )}
+export default function Footer() {
+    return (
+        <div>
+            <div className='footer-container'>
+                <div className='footer-list'>
+                    <div
+                        key='linkedin'
+                        className="footer-linkedin"
+                        href=''
+                    >
+                        <a href='https://www.linkedin.com/in/thomas-l-8b3787ab/' target='_blank'>
+                            <FaLinkedin />
+                        </a>
+                    </div>
+                    <div key='github' className="footer-github">
+                        <a href='https://github.com/tlesner' target='_blank'>
+                            <FaGithub />
+                        </a>
                     </div>
                 </div>
-                <div className='footer-copy'>
-                    <p>Copyright</p>
-                </div>
             </div>
+            <div className='footer-copy'>
+                <p>Copyright</p>
+            </div>
+        </div>
     )
 }

@@ -1,0 +1,43 @@
+.project-container {
+    border-radius: 10px;
+    background-color: lightblue;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .2);
+    margin: 10px;
+    padding: 10px;
+    /* height: 200px;
+    width: 200px; */
+    min-height: 200px;
+    max-width: 200px;
+}
+
+.weather-dashboard {
+    background-image: url('./src/assets/weather-dashboard.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+
+.employee-tracker {
+    background-image: url('./src/assets/ThomasLesner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+
+.vehicle-builder {
+    background-image: url('./src/assets/ThomasLesner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+
+.truck-a-licious {
+    background-image: url('./src/assets/Truck-A-Licious.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+}

@@ -25,3 +25,19 @@
     align-items: center;
 }
 
+.footer-linkedin {
+    text-decoration: none;
+
+    svg {
+        height: 35px;
+        width: 35px;
+        margin: 20px;
+        color: black;
+}}
+
+.footer-github svg {
+    height: 35px;
+    width: 35px;
+    margin: 20px;
+    color: black;
+}

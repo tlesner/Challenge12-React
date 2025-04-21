@@ -6,6 +6,7 @@ export default function Contact() {
     const [contactName, setContactName] = useState('');
     const [contactEmail, setEmail] = useState('');
     const [contactMessage, setMessage] = useState('');
+    const [error, SetError] = useState('');
 
     const handleInputChange = (e) => {
          
@@ -23,14 +24,31 @@ export default function Contact() {
         }
       };
 
-
     const handleFormSubmit = (e) => {
         e.preventDefault();
+        let isValid = true;
+        const newErrors = {};
 
-        alert(`Hello ${contactName}, thank you for submitting your message!`);
-        setContactName('');
-        setEmail('');
-        setMessage('');
+        if (!setContactName) {
+            newErrors.contactName = 'Name is required';
+            isValid = false;
+          }
+        
+        if (!setEmail) {
+            newErrors.contactEmail = 'Email is required';
+            isValid = false;
+          }
+        
+          setError(newErrors);
+
+          if (isValid) {
+            alert(`Hello ${contactName}, thank you for submitting your message!`);
+            setContactName('');
+            setEmail('');
+            setMessage('');
+          }
+
+        
     };
 
     return (
@@ -46,6 +64,8 @@ export default function Contact() {
                     type="text"
                     placeholder="Your Name"
                 />
+                    {error.contactName && <p className="error">{error.contactName}</p>}
+
                 <input
                     value={contactEmail}
                     name="contact-email"

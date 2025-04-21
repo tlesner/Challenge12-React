@@ -1,11 +1,16 @@
-import'./About.css'
+import './About.css'
 
 export default function About() {
     return (
         <div className='about-container'>
             <p>
-            About
+                About
             </p>
+            <img
+                src="../src/assets/ThomasLesner.jpg" 
+                alt="Picture of Thomas Lesner" 
+            />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos rerum nostrum, dicta non fugit nam earum impedit dolores voluptatibus commodi, assumenda iure! Dolore molestiae soluta tempore reiciendis! Laboriosam, iure enim?</p>
         </div>
     )
 }
