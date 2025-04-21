@@ -1,5 +1,5 @@
 import './About.css'
-import Thomas from '../../assets/ThomasLesner.jpg'
+import Thomas from '../../assets/ThomasLesner.jpeg'
 
 export default function About() {
     return (
