@@ -15,14 +15,14 @@ export default function Portfolio() {
             url: '',
             gitHub: 'https://github.com/tlesner/Challenge10-EmployeeTracker',
             projClass: 'employee-tracker',
-            description: 'We created an application that will assist food truck owners in connecting to their customers. Our application allows a food truck owner to create an account associated with their business. Then, they will be able to display the location and times of business to a public database available to all users. Both regular users and business owners will be able to view an upcoming schedule of local available food trucks in order to optimally plan locations and times.'
+            description: 'This project is built as a CLI application that manages employees for a company by adding, removing, and updating employees and their roles and departments. It utilizes Node.js, Inquierer and PostgreSQL.'
         },
         {
             name: 'Truck-A-Licious',
             url: '',
             gitHub: 'https://github.com/lwebert/Project2-Group3',
             projClass: 'truck-a-licious',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos rerum nostrum, dicta non fugit nam earum impedit dolores voluptatibus commodi, assumenda iure! Dolore molestiae soluta tempore reiciendis! Laboriosam, iure enim?'
+            description: 'We created an application that will assist food truck owners in connecting to their customers. Our application allows a food truck owner to create an account associated with their business. Then, they will be able to display the location and times of business to a public database available to all users. Both regular users and business owners will be able to view an upcoming schedule of local available food trucks in order to optimally plan locations and times.'
         },
         {
             name: 'CICD',
