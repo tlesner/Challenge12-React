@@ -31,23 +31,17 @@ export default function Portfolio() {
             projClass: 'cicd',
             description: 'Challenge 20 is a CI/CD utility designed to automate the testing and deployment pipeline for applications targeting Render. It integrates with version control systems to detect code changes, execute preconfigured test suites, and trigger deployments based on defined conditions. The application supports customizable build scripts, environment variable management, and webhook-triggered deployments, making it ideal for development teams seeking a robust, scriptable, and scalable deployment workflow.'
         },{
-            name: 'Vehicle Builder',
+            name: 'Kanban Board',
             url: '',
-            gitHub: 'https://github.com/tlesner/challenge8-VehicleBuilder',
+            gitHub: 'https://github.com/tlesner/Challenge14-KanbanBoard',
             projClass: 'vehicle-builder',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos rerum nostrum, dicta non fugit nam earum impedit dolores voluptatibus commodi, assumenda iure! Dolore molestiae soluta tempore reiciendis! Laboriosam, iure enim?'
+            description: 'This full-stack PERM application functions as a visual project management tool using a Kanban board layout. It leverages JSON Web Tokens for secure user authentication, allowing users to log in and manage project tickets organized into three columns: To Do, In Progress, and Completed. Users can create new tickets, update existing ones, or remove tickets. The app is deployed via Render and built using PostgreSQL for the database, with a tech stack that includes Express.js, ReactJS, and Node.js.'
         },{
             name: 'Vehicle Builder',
             url: '',
             gitHub: 'https://github.com/tlesner/challenge8-VehicleBuilder',
             projClass: 'vehicle-builder',
             description: 'This is a command-line application that allows a user to build a vehicle and test verious scenarios, based on the users inputs. The application utilizes the inquirer package, node.js and typescript'
-        },{
-            name: 'Vehicle Builder',
-            url: '',
-            gitHub: 'https://github.com/tlesner/challenge8-VehicleBuilder',
-            projClass: 'vehicle-builder',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos rerum nostrum, dicta non fugit nam earum impedit dolores voluptatibus commodi, assumenda iure! Dolore molestiae soluta tempore reiciendis! Laboriosam, iure enim?'
         },
     ]
     
